@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}our-team{% endblock %}
+
+{% block content %}
+    <h1 class="our-team-heading">Our team</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="photo-wrapper">
+    <div class="card our-team-card">
+        <img class="photo-card" src="/static/images/ml-photo.jpg" alt="Michalis Lefkiou" style="width:100%">
+        <h1 class="card-title">Michalis Lefkiou</h1>
+        <p class="title-card">Naval Architect & Marine Engineer <br> Vessel Performance Analyst</p>
+        <p class="title-card-2">National Technical University of Athens</p>
+        <a href="mailto:michalis.leukioug1@gmail.com" class="email-link">
+            <span>michalis.leukioug1@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/michalis-lefkiou/" class="linkedin-link"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class="card our-team-card">
+        <img class="photo-card" src="/static/images/cl-photo.jpg" alt="Christoforos Lefkiou" style="width:100%">
+        <h1 class="card-title">Christoforos Lefkiou</h1>
+        <p class="title-card">Naval Architect & Marine Engineer <br> Classification Society Engineer</p>
+        <p class="title-card-2">National Technical University of Athens</p>
+        <a href="mailto:xristoforos.leukiou@gmail.com" class="email-link">
+            <span>xristoforos.leukiou@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/christoforos-lefkiou-3697331b9/" class="linkedin-link"><i class="fa fa-linkedin"></i></a>
+    </div>
+</div>
+{% endblock %}
