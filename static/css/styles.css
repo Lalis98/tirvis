@@ -1144,6 +1144,7 @@ footer {
   height: 100%;
   align-self: center;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 .services-services-separator-1 {
   width: 100%;
@@ -1155,6 +1156,7 @@ footer {
 .services-services-image-1 {
   width: 50%;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 .services-services-container-1 {
   width: 50%;
@@ -1274,6 +1276,7 @@ footer {
 .services-services-image-2 {
   width: 50%;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 .services-services-separator-11 {
   width: 100%;
@@ -1285,6 +1288,7 @@ footer {
 .services-services-image-11 {
   width: 50%;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 .services-services-container-11 {
   width: 50%;
@@ -1405,6 +1409,7 @@ footer {
 .services-services-image-21 {
   width: 50%;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 .services-container2 {
   width: 100%;
