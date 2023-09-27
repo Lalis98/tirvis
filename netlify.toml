@@ -1,2 +1,3 @@
 [build]
-  publish = "."
+  publish = "static"  # The directory to publish (where your static files are)
+  command = "python app.py"  # The command to run your Flask app
